@@ -7,16 +7,16 @@ class Footer extends Component {
             <div className="footer-container">
             <hr />
                 <div className="social-icon-container">
-                    <a target="_blank" href="https://www.twitter.com/itsjoeotto">
+                    <a target="_blank" href="https://www.twitter.com/itsjoeotto" rel="noopener noreferrer">
                         <i className="fab fa-twitter"></i>
                     </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/joe-otto-a3429160/">
+                    <a target="_blank" href="https://www.linkedin.com/in/joe-otto-a3429160/" rel="noopener noreferrer">
                         <i className="fab fa-linkedin"></i>
                     </a>
-                    <a target="_blank" href="https://www.github.com/itsjoeotto">
+                    <a target="_blank" href="https://www.github.com/itsjoeotto" rel="noopener noreferrer">
                         <i className="fab fa-github"></i>
                     </a>
-                    <a href="mailto:joe@itsjoeotto.com">
+                    <a href="mailto:joe@itsjoeotto.com" rel="noopener noreferrer">
                         <i className="fas fa-envelope"></i>
                     </a>
                 </div>

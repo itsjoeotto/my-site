@@ -5,7 +5,7 @@ import './Nav.css';
 class Nav extends Component {
     render() {
         return (
-                <div className="nav-container">
+                <nav className="nav-container">
                     <ul className="nav">
                         <li>
                             <Link className="nav-link" to="/">Home</Link>
@@ -16,8 +16,11 @@ class Nav extends Component {
                         <li>
                             <Link className="nav-link" to="/portfolio">Portfolio</Link>
                         </li>
+                        <li>
+                            <Link className="nav-link" to="/blog">Blog</Link>
+                        </li>
                     </ul>
-                </div>
+                </nav>
         );
     }
 }

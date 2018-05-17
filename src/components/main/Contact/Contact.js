@@ -10,7 +10,8 @@ class Contact extends Component {
             <div className="contact-container" >
                 <Header />
                 <Nav />
-                Contact!
+                <h3>Let's Hang Out!</h3>
+                <a href="#">Check out my resume</a>
                 <Footer />
             </div>
         );

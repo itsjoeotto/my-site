@@ -6,6 +6,7 @@ import Contact from './main/Contact/Contact';
 import Portfolio from'./main/Portfolio/Portfolio';
 import Test from './initiative/Test';
 import Shape from './wild-shapes/Shape';
+import Blog from './main/Blog/Blog';
 
 const Router = () => (
     <BrowserRouter>
@@ -15,6 +16,7 @@ const Router = () => (
             <Route path="/portfolio/demo/initiative" component={Test}></Route>
             <Route path="/portfolio/demo/wild-shapes" component={Shape}>Wild Shapes</Route>
             <Route path="/portfolio" component={Portfolio}></Route>
+            <Route path="/blog" component={Blog}></Route>
             <Route component={NotFound}></Route>
         </Switch>
     </BrowserRouter>
