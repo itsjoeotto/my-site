@@ -11,7 +11,10 @@ class App extends Component {
         <Header />
         <Nav />
         <div className="home-container">
-          <p></p>
+          <p>Hi, I'm Joe.  </p>
+          <div className="img-container">
+            {/* selfie is in here */}
+          </div>
         </div>
         <Footer />
       </div>
